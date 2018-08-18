@@ -1,4 +1,4 @@
-h1 {
+	h1 {
 	font-weight: 300;
 	font-size: 3em;
 	margin: 0.67em 0;
@@ -14,7 +14,7 @@ p {
 }
 
 /* ==========================================================================
- Grid 
+ Grid
  ========================================================================== */
 .container {
 	width: 940px;
@@ -25,7 +25,7 @@ p {
 .span2 {
 	width: 140px;
 	margin: 0 1em;
-	
+
 	display: inline-block;
 	*display: inline;
 	zoom: 1;
@@ -54,7 +54,7 @@ body {
 	margin: 0;
 	font-size: 1em;
 	line-height: 1.4;
-	background: #111 url('../img/bg.jpg');
+	background: #111 url('./bg.jpg');
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	color: #FFF;
 }
@@ -188,7 +188,7 @@ noscript {
 		margin-right: 10px;
 		margin-left: 10px;
 	}
-	
+
 	.span2 {
 		margin-bottom: 15px;
 	}
@@ -198,16 +198,16 @@ noscript {
 	.container > h1.text-center {
 		font-size: 2em;
 	}
-	
+
 	.footer {
 		margin-top: 2em;
 	}
-	
+
 	.footer > .pull-left {
 		float: none;
 		text-align: center;
 	}
-	
+
 	.footer > .pull-right {
 		display: none;
 	}
@@ -217,7 +217,7 @@ noscript {
 	.span2 {
 		margin: 0 10px;
 	}
-	
+
 	.container > h1.text-center {
 		font-size: 1.5em;
 	}
